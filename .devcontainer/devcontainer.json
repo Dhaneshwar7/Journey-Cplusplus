@@ -13,7 +13,12 @@
 				"ms-vscode.cpptools",
 				"ms-vscode.cpptools-themes",
 				"ms-vscode.cmake-tools"
-			]
+			],
+			"settings": {
+				"editor.fontSize": 14,
+				"terminal.integrated.fontSize": 14,
+				"editor.wordWrap": "on"
+			}
 		}
 	}
 
