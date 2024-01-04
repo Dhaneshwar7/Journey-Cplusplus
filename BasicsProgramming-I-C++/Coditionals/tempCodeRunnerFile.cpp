@@ -1,15 +1,8 @@
-#include <iostream>
-using namespace std;
+int i=4;
+    // for(;;){
+    //     if(i<=40){
+    //         cout <<"4 * "<<i<< "="<<i*4 <<endl;
+    //         i=i+1;
+    //     }
 
-int main(){
-    int score;
-    cout << "Enter Score" <<endl;
-    cin>> score;
-    if(score <300){
-        cout << "INdia Wins" <<endl;
-    }
-    else{
-    cout<< "Austrialia Wins " <<endl;
-    }
-
-}
+    // }
