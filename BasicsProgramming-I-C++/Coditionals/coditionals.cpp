@@ -47,13 +47,17 @@ int main(){
     
     // we also can write like this for loop
     //table of 4
-    // int i=4;
-    // for(;;){
-    //     if(i<=40){
-    //         cout <<"4 * "<<i<< "="<<i*4 <<endl;
-    //         i=i+1;
-    //     }
+    int i=1;
+    for( ; ; ){
+        if(i<=40){
+            cout <<"4 * "<<i<< "="<<i*4 <<endl;
+            i=i+1;
+        }
+    }
 
+    // int n;
+    // if(cin>>n){
+    //     cout<< "oke printed" << n <<endl;
     // }
 
 }
