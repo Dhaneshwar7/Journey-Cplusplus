@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 
-    /* Solid RECTANGLE  */
+    /* 1. Solid RECTANGLE  */
     // ********
     // ********
     // ********
@@ -23,8 +23,9 @@ int main()
         cout << endl;
     }
     cout << endl;
+    /* --------------------------------------------- */
 
-    /*  Hollow Rectangle */
+    /* 2.  Hollow Rectangle */
     // * * * * * * *
     // *           *
     // *           *
@@ -51,8 +52,10 @@ int main()
         cout << endl;
     }
     cout << endl;
+    /* --------------------------------------------- */
 
-    /* Square Pattern  */
+
+    /* 3. Square Pattern  */
     // * * * * *
     // * * * * *
     // * * * * *
@@ -68,6 +71,8 @@ int main()
         cout << endl;
     }
     cout << endl;
+    /* --------------------------------------------- */
+
 
     // Now take input from user then print Hollow Pattern
 
@@ -100,6 +105,8 @@ int main()
         cout << endl;
     }
     cout << endl;
+    /* --------------------------------------------- */
+
 
     /* Double border/ 2 outside line Hollow pattern : */
     /* Example */
