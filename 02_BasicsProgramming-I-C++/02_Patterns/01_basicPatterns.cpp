@@ -9,7 +9,7 @@ int main()
     // ********
     // ********
 
-    cout << "PATTERN :- Solid Rectangle" << endl;
+    cout << "------PATTERN :- Solid Rectangle------" << endl;
     // Outer loop for row observe
     for (int row = 0; row < 3; row++)
     {
@@ -30,7 +30,7 @@ int main()
     // *           *
     // *           *
     // * * * * * * *
-    cout << "PATTERN :- Hollow Rectangle" << endl;
+    cout << "------PATTERN :- Hollow Rectangle----" << endl;
     for (int row = 0; row <= 3; row++)
     {
         if (row == 0 || row == 3)
@@ -61,7 +61,7 @@ int main()
     // * * * * *
     // * * * * *
     // * * * * *
-    cout << "PATTERN :- Square Pattern" << endl;
+    cout << "-----PATTERN :- Square Pattern------" << endl;
     for (int i = 1; i < 5; i++)
     {
         for (int j = 1; j < 5; j++)
@@ -75,9 +75,7 @@ int main()
 
 
     // Now take input from user then print Hollow Pattern
-
-    cout << "Enter number of Row and Column for Hollow Pattern" << endl;
-    cout << endl;
+    cout << "------PATTERN :- Hollow Pattern by User Input-----" << endl;
     int rowCount, colCount;
     cout << "Enter Row Number" << endl;
     cin >> rowCount;
@@ -117,7 +115,7 @@ int main()
     // * * * * * * * *
     // * * * * * * * *
 
-    cout << "Enter a Number for Row & Column for double Border Hollow Pattern" << endl;
+    cout << "------PATTERN :- Double Border Hollow Pattern-----" << endl;
     int rowNum, colNum;
     cout << "Enter Number for Rows" << endl;
     cin >> rowNum;
@@ -141,5 +139,34 @@ int main()
             cout << "* * ";
         }
         cout<< endl;
+    }
+    cout<<endl;
+
+
+    cout << "-------PATTERN :- Half Pyramid-----" << endl;
+    int pyraRow;
+    cout << "Enter Number for Rows" << endl;
+    cin >> pyraRow;
+
+    for (int row = 0; row< pyraRow; row++)
+    {
+        for(int col=0;col< row+1;col++){
+            cout<<"* ";
+        }
+       cout<< endl;
+    }
+    cout<<endl;
+
+    cout << "-------PATTERN :- Inverted Half Pyramid-----" << endl;
+    int inverRow;
+    cout << "Enter Number for Rows" << endl;
+    cin >> inverRow;
+
+    for (int row = 0;row<inverRow; row++)
+    {
+        for(int col=inverRow-row;col>0;col--){
+            cout<<"* ";
+        }
+       cout<< endl;
     }
 }
