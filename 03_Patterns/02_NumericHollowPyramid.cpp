@@ -13,6 +13,6 @@ int main(){
         }
 
         // number with spaces in between
-        for(int col=0;col<)
+        
     }
 }
