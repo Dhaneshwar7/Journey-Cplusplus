@@ -5,7 +5,7 @@ using namespace std;
 int main(){
     //Printing numbers from 1 to n
     int n;
-    cout<< "enter a number";
+    cout<< "Enter a Number";
     cin>> n;
     // for(int i=1;i<=n;i++){
     //     cout << i << endl;
@@ -24,7 +24,7 @@ int main(){
         return false;
 
         if(n%i==0){
-            cout << "Not a Prime Number";
+            cout << "This is Not a Prime Number";
             return 0;
         }
         cout << " This is Prime Number" << endl;
